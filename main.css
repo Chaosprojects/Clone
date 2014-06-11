@@ -1,0 +1,164 @@
+
+
+
+h1,h2,h3,h4,h5,h6,p,div,body, {
+  margin:0;
+  padding:0;
+}
+
+body {
+ 
+  
+}
+
+#nav-container {
+  height:192px;
+
+}
+
+#nav-container #navMenu {
+  position:absolute;
+  top:15px;
+  right:40px;
+  height:40px;
+  width: 300px;
+  line-height:2.2em;
+}
+
+.nav {
+  color:#000;
+  margin-right:10px;
+  text-decoration:none;
+  vertical-align: sub;
+
+}
+
+
+.nav:hover{
+  text-decoration:underline;
+
+}
+
+.signIn{
+  background:#4B42FF;
+  color:#fff;
+  font-weight:700;
+  padding: 6px 10px; 
+  border-radius:2px;
+  text-decoration:none;
+}
+
+.signIn:hover{
+  text-decoration:underline;
+}
+
+#logo-container {
+  height:160px;
+  margin-bottom:5px;
+  line-height:2em;
+  text-align:center;
+
+}
+
+#logo-container img {
+  padding-top:50px;
+}
+
+#search-container {
+  position:relative;
+  width:600px;
+  margin:0 auto;
+  display:block;
+  
+
+}
+
+#search-container input:hover{
+  border:1px solid #CCCCCC;
+
+}
+#search-container input:focus{
+    border:1px solid #4B42FF;
+
+}
+.mic{
+  position:absolute;
+  top:5px;
+  left:550px;
+}
+
+.search {
+  display:block;
+  height:32px;
+  width: 570px;
+  margin-right:auto;
+  margin-left:auto;
+  border: 1px grey solid;
+  background:#fff;
+  
+}
+
+.button-container {
+  display:block;
+  width:560px;
+  text-align:center;
+  margin-left:auto;
+  margin-right:auto;
+  margin-top:10px;
+  
+}
+.search-btn {
+  cursor:default;
+    display:inline-block;
+    color:#000;
+    background-color: #F5F5F5;
+    border: 1px solid grey;
+    border-radius:3px;
+    font-weight:500;
+    line-height:35px;
+    margin-right:6px;
+    padding:0 10px;
+  
+}
+
+.search-btn:hover {
+  -webkit-box-shadow: 0px 1px 5px 0px rgba(50, 50, 50, 0.75);
+  -moz-box-shadow:    0px 1px 5px 0px rgba(50, 50, 50, 0.75);
+  box-shadow:         0px 1px 5px 0px rgba(50, 50, 50, 0.75);
+}
+
+
+#footer-container{
+  position:absolute;
+  bottom:0px;
+  background-color:#f2f2f2;
+  width:100%;
+  height:50px;
+  line-height:45px;
+  right:2px;
+}
+
+#footer-left{
+  display:inline-block;
+  float:left;
+  padding-left:10px;
+}
+
+#footer-right {
+  display:inline-block;
+  float:right;
+  padding-right:10px
+  
+}
+
+.footer{
+  color:#666;
+  text-decoration:none;
+  font-size:14px;
+  margin-right:5px;
+  
+}
+
+.footer:hover{
+  text-decoration:underline;
+}
